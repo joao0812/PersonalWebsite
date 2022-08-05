@@ -1,0 +1,209 @@
+#html::before {
+    content: '';
+    position: absolute;
+    width: 90%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 100%;
+    background: linear-gradient(to right, #d1496b, #ff003f, #ff1ece);
+    top: 0;
+    left: 0;
+}
+#css::before {
+    content: '';
+    position: absolute;
+    width: 90%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 100%;
+    background: linear-gradient(to right, #d1496b, #ff003f, #ff1ece);
+    top: 0;
+    left: 0;
+}
+#jsFront::before {
+    content: '';
+    position: absolute;
+    width: 80%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 100%;
+    background: linear-gradient(to right, #d1496b, #ff003f, #ff1ece);
+    top: 0;
+    left: 0;
+}
+#ts::before {
+    content: '';
+    position: absolute;
+    width: 20%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 100%;
+    background: linear-gradient(to right, #d1496b, #ff003f, #ff1ece);
+    top: 0;
+    left: 0;
+}
+#react::before {
+    content: '';
+    position: absolute;
+    width: 15%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 100%;
+    background: linear-gradient(to right, #d1496b, #ff003f, #ff1ece);
+    top: 0;
+    left: 0;
+}
+#vue::before {
+    content: '';
+    position: absolute;
+    width: 10%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 100%;
+    background: linear-gradient(to right, #d1496b, #ff003f, #ff1ece);
+    top: 0;
+    left: 0;
+}
+#python::before {
+    content: '';
+    position: absolute;
+    width: 75%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 100%;
+    background: linear-gradient(to right, #d1496b, #ff003f, #ff1ece);
+    top: 0;
+    left: 0;
+}
+#js::before {
+    content: '';
+    position: absolute;
+    width: 75%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 100%;
+    background: linear-gradient(to right, #d1496b, #ff003f, #ff1ece);
+    top: 0;
+    left: 0;
+}
+#php::before {
+    content: '';
+    position: absolute;
+    width: 5%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 100%;
+    background: linear-gradient(to right, #d1496b, #ff003f, #ff1ece);
+    top: 0;
+    left: 0;
+}
+#django::before {
+    content: '';
+    position: absolute;
+    width: 20%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 100%;
+    background: linear-gradient(to right, #d1496b, #ff003f, #ff1ece);
+    top: 0;
+    left: 0;
+}
+#firebase::before {
+    content: '';
+    position: absolute;
+    width: 50%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 100%;
+    background: linear-gradient(to right, #d1496b, #ff003f, #ff1ece);
+    top: 0;
+    left: 0;
+}
+#mongo::before {
+    content: '';
+    position: absolute;
+    width: 15%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 100%;
+    background: linear-gradient(to right, #d1496b, #ff003f, #ff1ece);
+    top: 0;
+    left: 0;
+}
+#mysql::before {
+    content: '';
+    position: absolute;
+    width: 5%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 100%;
+    background: linear-gradient(to right, #d1496b, #ff003f, #ff1ece);
+    top: 0;
+    left: 0;
+}
+#figma::before {
+    content: '';
+    position: absolute;
+    width: 15%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 100%;
+    background: linear-gradient(to right, #d1496b, #ff003f, #ff1ece);
+    top: 0;
+    left: 0;
+}
+#ps::before {
+    content: '';
+    position: absolute;
+    width: 30%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 100%;
+    background: linear-gradient(to right, #d1496b, #ff003f, #ff1ece);
+    top: 0;
+    left: 0;
+}
+#ilustrator::before {
+    content: '';
+    position: absolute;
+    width: 10%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 100%;
+    background: linear-gradient(to right, #d1496b, #ff003f, #ff1ece);
+    top: 0;
+    left: 0;
+}
+#scrum::before {
+    content: '';
+    position: absolute;
+    width: 10%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 100%;
+    background: linear-gradient(to right, #d1496b, #ff003f, #ff1ece);
+    top: 0;
+    left: 0;
+}
+#kanban::before {
+    content: '';
+    position: absolute;
+    width: 10%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 100%;
+    background: linear-gradient(to right, #d1496b, #ff003f, #ff1ece);
+    top: 0;
+    left: 0;
+}
+#git::before {
+    content: '';
+    position: absolute;
+    width: 80%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 100%;
+    background: linear-gradient(to right, #d1496b, #ff003f, #ff1ece);
+    top: 0;
+    left: 0;
+}

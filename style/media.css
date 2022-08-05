@@ -1,0 +1,101 @@
+@media only screen and (max-width: 600px) {
+    .cardContainer {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+        height: auto;
+        padding: 0 0 5px 0;
+    }
+    .containerServices {
+        width: 85%;
+        height: auto;
+        padding: 0px;
+    }
+    .serv {
+        width: 200px;
+        height: 220px;
+    }
+    .serv#card1::after {
+        left: -25px;
+    }
+    .serv#card2::after {
+        left: -25px;
+    }
+    .serv#card3::after {
+        left: -25px;
+    }
+    .projectContainer {
+        gap: 25px;
+        padding: 10px;
+    }
+    #cardProject03 {
+        border: 2px solid #1E1E1E;
+    }
+    #cardProject04 {
+        border: 2px solid #1E1E1E;
+    }
+    #cardProject03 h3 {
+        color: #1E1E1E;
+    }
+    #cardProject04 h3 {
+        color: #1E1E1E;
+    }
+    .contatoFinal {
+        flex-direction: column;
+        gap: 15px;
+        width: 90%;
+    }
+    .menuFooter {
+        align-items: center;
+    }
+    .social {
+        align-items: center;
+        text-align: center;
+    }
+    .contatoFooter {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+    }
+    .container02 {
+        gap: 5px;
+    }
+    .container02 .contatoSpan {
+        margin: 0 10px 0 0;
+    }
+    .btForm {
+        width: 70%;
+    }
+    form {
+        width: 90%;
+        gap: 30px;
+    }
+    .nomeEmail {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        align-items: center;
+    }
+    .telAssunto {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        width: 100%;
+    }
+    .tel {
+        width: 40%;
+    }
+    .perfil {
+        display: none;
+    }
+    .perfil2 {
+        display: none;
+    }
+}
