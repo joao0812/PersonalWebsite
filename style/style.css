@@ -8,13 +8,14 @@
 
 }
 
-body {
+.bgAllBlack {
     background-color: #1E1E1E;
 }
 
 .headContainer {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100%;
     margin: auto;
     border-bottom-left-radius: 25px;
@@ -35,6 +36,7 @@ body {
     color: white;
     font-size: 16px;
     font-family: Poppins, Arial, sans-serif;
+    padding-top: 15px;
 }
 
 .logo {
@@ -222,6 +224,24 @@ body {
     color: #ff003f;
     cursor: pointer;
 }
+.curriculoPDF a {
+    text-decoration: none; 
+}
+.curriculoPDF button {
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid #ff003f;
+    font-family: 'DM Serif Display', serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: .6s;
+}
+.curriculoPDF button:hover { 
+    box-shadow: 0px 0px 8px 2px rgba(255, 0, 63, 0.86);
+}
 
 .perfil {
     width: 75%;
@@ -239,7 +259,7 @@ body {
 .perfil::after {
     content: "";
     width: 150px;
-    height: 100%;
+    height: 103%;
     background-color: #f5f5f5;
     transform: skewX(-15deg);
     position: absolute;
@@ -356,7 +376,9 @@ body {
     cursor: pointer;
     animation: shake-horizontal 4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both infinite;
     transition: .6s;
-
+}
+.bt:active {
+    border-style: none;
 }
 
 .bt:hover {
@@ -541,22 +563,20 @@ body {
 
 .serv {
     width: 410px;
-    height: 150px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     text-align: center;
     border-radius: 15px;
-    gap: 15px;
-    padding: 15px;
+    padding: 20px;
     color: black;
     background-color: #f5f5f5;
     position: relative;
 }
 
 .serv a {
-    font-size: 45px;
+    font-size: 35px;
 }
 
 .serv#card1 a:hover {
@@ -596,7 +616,7 @@ body {
     background-color: #ff003f;
     border-radius: 25px;
     position: absolute;
-    top: -22px;
+    top: -33px;
     left: -38px;
 }
 
@@ -614,7 +634,7 @@ body {
     background-color: #00cc00;
     border-radius: 25px;
     position: absolute;
-    top: -22px;
+    top: -33px;
     left: -38px;
 }
 
@@ -632,7 +652,7 @@ body {
     background-color: #ff00ff;
     border-radius: 25px;
     position: absolute;
-    top: -22px;
+    top: -33px;
     left: -38px;
 }
 
@@ -678,28 +698,31 @@ body {
     width: 250px;
     height: 520px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    gap: 15px;
     border: 2px solid #f5f5f5;
     padding: 10px 15px;
     border-radius: 20px;
+    gap: 5px;
 }
 
 .titulo {
     width: 100%;
-    height: 80px;
+    height: 20%;
     display: flex;
     justify-content: center;
+    align-items: center;
     align-self: flex-start;
     color: #f5f5f5;
     animation: aparecer02 3s ease-out forwards;
 }
 
 .cardProject img {
-    width: 250px;
+    width: 220px;
+    overflow: hidden;
+    height: 30%;
     border-radius: 20px;
 }
 
@@ -711,6 +734,10 @@ body {
 
 .cardProject p {
     animation: aparecer02 3s ease-out forwards;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    text-align: justify;
 
 }
 
@@ -788,7 +815,7 @@ body {
 }
 
 .containerTitulo .seta {
-    transform: rotateZ(180deg);
+    transform: rotateZ(90deg);
 }
 .rotate {
     animation: rotateSeta .3s linear forwards;
@@ -798,11 +825,25 @@ body {
         transform: rotateZ(0deg);
     }
     to {
-        transform: rotateZ(-90deg);
+        transform: rotateZ(90deg);
     }
 
 }
-
+#skillBarT01 {
+    display: none;
+}
+#skillBarT02 {
+    display: none;
+}
+#skillBarT03 {
+    display: none;
+}
+#skillBarT04 {
+    display: none;
+}
+#skillBarT05 {
+    display: none;
+}
 .containerSkillBar {
     min-width: 270px;
     height: 332px;
@@ -886,7 +927,7 @@ form {
 
 .nomeEmail,
 .telAssunto {
-    width: 50%;
+    width: 100%;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -945,7 +986,7 @@ form {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 100%;
     height: 250px;
     padding: 10px;
     margin-top: 5px;
@@ -958,7 +999,7 @@ form {
 }
 
 .btForm {
-    width: 15%;
+    width: 160px;
     height: 40px;
     border-radius: 25px;
     margin-top: 15px;

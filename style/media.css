@@ -17,32 +17,28 @@
     }
     .serv {
         width: 200px;
-        height: 220px;
     }
     .serv#card1::after {
+        top: -40px;
         left: -25px;
     }
     .serv#card2::after {
+        top: -40px;
         left: -25px;
     }
     .serv#card3::after {
+        top: -40px;
         left: -25px;
+    }
+    .projects {
+        background: #1E1E1E;
     }
     .projectContainer {
         gap: 25px;
         padding: 10px;
     }
-    #cardProject03 {
-        border: 2px solid #1E1E1E;
-    }
-    #cardProject04 {
-        border: 2px solid #1E1E1E;
-    }
-    #cardProject03 h3 {
-        color: #1E1E1E;
-    }
-    #cardProject04 h3 {
-        color: #1E1E1E;
+    .cardProject {
+        color: #f5f5f5;
     }
     .contatoFinal {
         flex-direction: column;
@@ -74,7 +70,6 @@
         width: 70%;
     }
     form {
-        width: 90%;
         gap: 30px;
     }
     .nomeEmail {

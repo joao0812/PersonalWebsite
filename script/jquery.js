@@ -5,7 +5,7 @@ function slide(e) {
     let id = '#skillBar' + idSeta
 
     $(`#${idSeta}`).toggleClass('rotate')
-    $(`${id}`).slideToggle(700)
+    $(`${id}`).slideToggle(600)
 }
 
 const seta = document.querySelectorAll('.seta')

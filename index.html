@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="style/skills.css">
     <link rel="stylesheet" href="style/media.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>João Pedro Almeida</title>
 </head>
 
-<body>
+<body class="bgAllBlack">
     <div id="home2"></div>
     <header id="menu" class="headContainer">
         <div class="menu">
@@ -91,6 +93,10 @@
                         <ion-icon name="logo-linkedin"></ion-icon>
                     </a>
                 </div>
+                <div class="curriculoPDF">
+                    <a href="assets/Curriculo - João Pedro do Espirito Santo Almeida.pdf" download=""><button>Currículo
+                            <ion-icon name="download-outline"></ion-icon></button></a>
+                </div>
                 <button id="btTroca" class="bt"></button>
             </div>
         </div>
@@ -149,10 +155,9 @@
                 <div class="titulo">
                     <h3>Di Loli doces</h3>
                 </div>
-                <img id="project01"
-                    src="assets/loliDoces.PNG"
-                    alt="">
-                <p>Site desenvolvido para a loja de brigadeiros e outros doces, a Di Loli Doces, com o objetivo de funcionar como um Menu sendo uma forma mais chamativa de mostrar os produtos, facilitando a ligação com os clientes.</p>
+                <img id="project01" src="assets/loliDoces.PNG" alt="">
+                <p>Site desenvolvido para a loja de brigadeiros e outros doces, a Di Loli Doces, com o objetivo de
+                    set um Menu e uma apresentação dos produtos.</p>
                 <a href="https://github.com/joao0812/DiLoliDoces"><button class="btProject">SABER MAIS</button></a>
             </div>
             <div id="cardProject02" class="cardProject">
@@ -162,7 +167,8 @@
                 <img id="project02"
                     src="https://images.unsplash.com/photo-1605882008715-a202cc124e4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJpcXVpbml8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
                     alt="">
-                <p>O projeto atualmente se encontra em desenvolvimento devido algumas requisições do cliente para que seja possível colocar mais produtos.</p>
+                <p>O projeto atualmente se encontra em desenvolvimento devido algumas requisições do cliente para que
+                    seja possível colocar mais produtos.</p>
                 <button class="btProject">SABER MAIS</button>
             </div>
             <div id="cardProject03" class="cardProject">
@@ -327,7 +333,7 @@
     </section>
 
     <footer id="contato2" class="footerContainer">
-        <div class="contato">
+        <div class="contato container">
             <h2>CONTATO</h2>
             <form action="" method="post">
                 <div class="nomeEmail">
@@ -358,7 +364,7 @@
                 <button class="btForm">Enviar contato <ion-icon name="paper-plane"></ion-icon></button>
             </form>
         </div>
-        <div class="contatoFinal">
+        <div class="contatoFinal container">
             <div class="menuFooter">
                 <h3>CONTATO</h3>
                 <a href="#home2">Home</a>
@@ -405,7 +411,14 @@
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
